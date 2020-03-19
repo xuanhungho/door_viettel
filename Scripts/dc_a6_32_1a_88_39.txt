@@ -1,0 +1,8 @@
+{
+    "cameraId": "5,6",
+    "status": "1",
+    "door_open": "5",
+    "safe_time": "2",
+    "update_config": "300",
+    "wait_error": 10"
+}

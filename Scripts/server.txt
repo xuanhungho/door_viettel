@@ -1,0 +1,5 @@
+{
+    "server_websocket": "192.168.0.202:9001/student-websocket", 
+    "topic1": "/topic/inOutGate/1/5",
+    "topic2": "/topic/inOutGate/1/6"
+}

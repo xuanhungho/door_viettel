@@ -1,0 +1,33 @@
+[Unit]
+
+Description=VIETTEL IDC running as a service on boot up
+
+After=graphical-session.target
+
+ 
+
+[Service]
+
+Type=simple
+
+User=pi
+
+Environment=DISPLAY=:0
+
+ExecStart=/usr/bin/python3 /home/pi/Scripts/ServiceScript.py
+
+StandardOutput=syslog
+
+StandardError=syslog
+
+SyslogIdentifier=ServiceScript
+
+Restart=on-failure
+
+RestartSec=5s
+
+
+[Install]
+
+WantedBy=multi-user.target
+
